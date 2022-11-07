@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { Link } from "react-router-dom";
@@ -15,7 +14,7 @@ export class Navigation extends Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Link to={"/home"}>Home</Link>||||||||
-              <NavLink href="#link">Link</NavLink>
+              <Link to={"/CreatePost"}>Add Post</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

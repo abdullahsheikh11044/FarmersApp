@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 } */
+.main-post-show {
+  display: flex;
+  flex-direction: row; 
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 2px;
+
+}
